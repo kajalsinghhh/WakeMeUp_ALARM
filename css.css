@@ -185,7 +185,7 @@ header {
 #minute {
     width: 100%;
     height: 100%;
-    animation: sec 3600s steps(3600, end) infinite;
+    animation: sec 3600s steps(60, end) infinite;
 }
 
 #minute::after {
@@ -202,7 +202,7 @@ header {
 #hour {
     width: 100%;
     height: 100%;
-    animation: sec 43200 steps(43200, end) infinite;
+    animation: sec 43200 steps(60, end) infinite;
 }
 
 #hour::after {
