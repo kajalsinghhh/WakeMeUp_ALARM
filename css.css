@@ -168,7 +168,6 @@ header {
 #second {
     width: 100%;
     height: 100%;
-    animation: sec 60s steps(60, end) infinite;
 }
 
 #second::after {
@@ -185,7 +184,6 @@ header {
 #minute {
     width: 100%;
     height: 100%;
-    animation: sec 3600s steps(60, end) infinite;
 }
 
 #minute::after {
@@ -202,7 +200,6 @@ header {
 #hour {
     width: 100%;
     height: 100%;
-    animation: sec 43200 steps(60, end) infinite;
 }
 
 #hour::after {
@@ -213,13 +210,9 @@ header {
     position: absolute;
     background-color: #cf05fdfb;
     left: calc(50% - 4.5px);
-    top: 45px;
+    top: 50px;
 }
-@keyframes sec{
-    to{
-        transform: rotate(360deg);
-    }
-}
+
 
 .container {
     width: 100%;
